@@ -49,7 +49,7 @@ class VisaoUsuario
                                 <div class="form-group">
                                     <label for="usuario"><span style="float:left;"><img src="http://guaiconstrua.herokuapp.com/_img/login.jpg" alt="user" width="45"><span></label>
                                     <input class="form-control" "type="text" id="usuario" name ="usuario_login" 
-                                    placeholder="Digite o seu usu&aacute;rio. teste" />
+                                    placeholder="Digite o seu usu&aacute;rio. teste teste 2" />
                                     <br>
                                     <label for="usuario_senha"><span style="float:left;"><img src="http://localhost/plataforma/_img/cadeado.png" alt="user" width="45"><span></label> 
                                     <input class="form-control" type="password" id="usuario_senha" name ="usuario_senha" 
