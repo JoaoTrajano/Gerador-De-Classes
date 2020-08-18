@@ -53,7 +53,7 @@ class VisaoUsuario
                                     <input class="form-control" "type="text" id="usuario" name ="usuario_login" 
                                     placeholder="Digite o seu usu&aacute;rio. " />
                                     <br>
-                                    <label for="usuario_senha"><span style="float:left;"><img src="http://localhost/plataforma/_img/cadeado.png" alt="user" width="45"><span></label> 
+                                    <label for="usuario_senha"><span style="float:left;"><img src="'.URL_DOMINIO.'_img/cadeado.png" alt="user" width="45"><span></label> 
                                     <input class="form-control" type="password" id="usuario_senha" name ="usuario_senha" 
                                     placeholder="Digite a sua senha."/> 
                                     <br>
@@ -61,16 +61,16 @@ class VisaoUsuario
                                 </div>
                             </form>
                             <div class="row" style="text-align:center;">
-                                <div class="col-md-12">
-                                    <span ><a href="http://localhost/plataforma/view/usuario_recuperar_senha.php" > Esqueceu sua senha?</a></span>
+                            <!-- <div class="col-md-12">
+                                    <span ><a href="'.URL_DOMINIO.'view/usuario_recuperar_senha.php" > Esqueceu sua senha?</a></span>
                                     <br>
-                                    <span ><a href="http://localhost/plataforma/view/usuario_atualizar_senha.php" > Editar Login.</a></span><br>
+                                    <span ><a href="'.URL_DOMINIO.'view/usuario_atualizar_senha.php" > Editar Login.</a></span><br>
+                                </div> -->
+                                <div class="col-md-6">
+                                    <img src="'.URL_DOMINIO.'_img/logo-cliente.jpg" alt="user" width="150">
                                 </div>
                                 <div class="col-md-6">
-                                    <img src="http://localhost/plataforma/_img/logo-cliente.jpg" alt="user" width="150">
-                                </div>
-                                <div class="col-md-6">
-                                    <img src="http://localhost/plataforma/_img/logo.png"" alt="WiseSystem" width="105">
+                                    <img src="'.URL_DOMINIO.'_img/logo.png"" alt="WiseSystem" width="105">
                                 </div>
                             </div>
                         </div>
