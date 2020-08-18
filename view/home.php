@@ -1,5 +1,6 @@
 <?php
 
+    include_once 'config.php';
     error_reporting(0);
   
    $corpo = '
@@ -154,10 +155,10 @@
                    <div class="row" style="text-align:center;">
                       
                        <div class="col-md-6">
-                           <img src="http://localhost/plataforma/_img/logo-cliente.jpg" alt="user" width="150">
+                           <img src="'.URL_DOMINIO.'/_img/logo-cliente.jpg" alt="user" width="150">
                        </div>
                        <div class="col-md-6">
-                           <img src="http://localhost/plataforma/_img/logo.png"" alt="WiseSystem" width="105">
+                           <img src="'.URL_DOMINIO.'/_img/logo.png"" alt="WiseSystem" width="105">
                        </div>
                    </div>
                </div>

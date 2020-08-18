@@ -1,6 +1,8 @@
 <?php
     error_reporting(0);
     
+    include_once 'config.php';
+    
     $nome_classe = ucfirst($_POST['nome_classe']);
 
     $array_atributos = $_POST['atributo'];
