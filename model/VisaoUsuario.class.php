@@ -47,7 +47,7 @@ class VisaoUsuario
                         <div class="col-md-12" style="padding:10px;">
                             <form action="index.php" method="POST" id="form-principal">
                                 <div class="form-group">
-                                    <label for="usuario"><span style="float:left;"><img src="http://localhost/plataforma/_img/login.jpg" alt="user" width="45"><span></label>
+                                    <label for="usuario"><span style="float:left;"><img src="http://guaiconstrua.herokuapp.com/_img/login.jpg" alt="user" width="45"><span></label>
                                     <input class="form-control" "type="text" id="usuario" name ="usuario_login" 
                                     placeholder="Digite o seu usu&aacute;rio. teste" />
                                     <br>
