@@ -10,5 +10,4 @@ if (isset($_POST["confirmar"]))
     header('Location: '.URL_DOMINIO.'view/home.php ');
 }
 
-var_dump($_SERVER['HTTP_HOST']);
 $v->layoutLogin();
